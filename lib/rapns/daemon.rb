@@ -21,6 +21,10 @@ require 'rapns/daemon/apns/app_runner'
 require 'rapns/daemon/apns/delivery_handler'
 require 'rapns/daemon/apns/feedback_receiver'
 
+require 'rapns/daemon/c2dm/delivery'
+require 'rapns/daemon/c2dm/app_runner'
+require 'rapns/daemon/c2dm/delivery_handler'
+
 require 'rapns/daemon/gcm/delivery'
 require 'rapns/daemon/gcm/app_runner'
 require 'rapns/daemon/gcm/delivery_handler'

@@ -21,6 +21,11 @@ require 'rapns/apns/notification'
 require 'rapns/apns/feedback'
 require 'rapns/apns/app'
 
+require 'rapns/c2dm/post_data_size_validator'
+require 'rapns/c2dm/registration_ids_count_validator'
+require 'rapns/c2dm/notification'
+require 'rapns/c2dm/app'
+
 require 'rapns/gcm/expiry_collapse_key_mutual_inclusion_validator'
 require 'rapns/gcm/payload_data_size_validator'
 require 'rapns/gcm/registration_ids_count_validator'
